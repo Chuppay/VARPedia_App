@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "DK Cool Crayon";
+    src: url("DKCoolCrayon.ttf");
+}
+
+.label{
+    -fx-font-family: "DK Cool Crayon";
+}
+
+.button{
+    -fx-font-family: "DK Cool Crayon";
+    -fx-font-size: 36px;
+    -fx-background-color:#ffffff;
+    -fx-background-radius: 30px;
+}
+
+.button:hover{
+    -fx-background-color: #edeaed;
+}
+
+.combo-box{
+    -fx-font-size: 20px;
+    -fx-background-radius: 20px;
+}
+
+.root{
+    -fx-background-image: url("AppBackground.jpg");
+}
+
+.list-view{
+    -fx-font-family: "DK Cool Crayon";
+    -fx-font-size: 20px;
+}

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "DK Cool Crayon";
+    src: url("DKCoolCrayon.ttf");
+}
+
+.label{
+    -fx-font-family: "DK Cool Crayon";
+}
+
+Button:hover{
+    -fx-underline: true;
+}
+
+.root{
+    -fx-background-image: url("AppBackground.jpg");
+}
+

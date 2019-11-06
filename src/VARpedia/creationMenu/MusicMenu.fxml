@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="VARpedia.creationMenu.MusicMenuController">
+  <children>
+    <ComboBox fx:id="_musicBox" layoutX="399.0" layoutY="327.0" prefHeight="67.0" prefWidth="403.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Label layoutX="498.0" layoutY="269.0" text="Add Music?">
+      <font>
+        <Font size="30.0" />
+      </font>
+      <stylesheets>
+        <URL value="@../resources/childTheme2.css" />
+      </stylesheets>
+    </Label>
+    <Button fx:id="_back" layoutX="84.0" layoutY="574.0" mnemonicParsing="false" onAction="#backPressed" text="Back" />
+    <Button fx:id="_continue" layoutX="905.0" layoutY="574.0" mnemonicParsing="false" onAction="#continuePressed" text="Continue" />
+    <Button fx:id="_play" layoutX="515.0" layoutY="575.0" mnemonicParsing="false" onAction="#pressedPlay" text="Preview" />
+  </children>
+  <stylesheets>
+    <URL value="@../resources/childTheme2.css" />
+  </stylesheets>
+</AnchorPane>

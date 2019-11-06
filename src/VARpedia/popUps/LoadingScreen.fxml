@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="100.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Pacman-2s-200px.gif" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="223.0" prefHeight="44.0" prefWidth="394.0" text="Loading ...">
+         <font>
+            <Font name="DK Cool Crayon" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

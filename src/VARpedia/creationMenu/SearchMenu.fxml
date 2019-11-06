@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" stylesheets="@../resources/childTheme2.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VARpedia.creationMenu.SearchMenuController">
+  <children>
+    <VBox alignment="CENTER" prefHeight="515.0" prefWidth="1200.0" spacing="25.0">
+      <children>
+        <Label text="Fill in:">
+          <font>
+            <Font size="64.0" />
+          </font>
+        </Label>
+        <VBox alignment="CENTER" prefHeight="71.0" prefWidth="700.0" spacing="10.0">
+          <children>
+            <Label contentDisplay="CENTER" text="Search term:" textAlignment="CENTER">
+                     <font>
+                        <Font size="39.0" />
+                     </font></Label>
+            <TextField fx:id="_searchTermField" maxWidth="550.0" onKeyReleased="#releaseCreateButton" prefHeight="26.0" prefWidth="550.0">
+                     <font>
+                        <Font name="DK Cool Crayon" size="24.0" />
+                     </font></TextField>
+          </children>
+        </VBox>
+        <VBox alignment="CENTER" prefWidth="700.0" spacing="10.0">
+          <children>
+            <Label contentDisplay="CENTER" text="Creation name:" textAlignment="CENTER">
+                     <font>
+                        <Font size="40.0" />
+                     </font></Label>
+            <TextField fx:id="_creationNameField" maxWidth="550.0" onKeyReleased="#releaseCreateButton" prefHeight="46.0" prefWidth="500.0">
+                     <font>
+                        <Font name="DK Cool Crayon" size="24.0" />
+                     </font></TextField>
+          </children>
+        </VBox>
+        <VBox alignment="CENTER" prefHeight="71.0" prefWidth="700.0" spacing="10.0">
+          <children>
+            <Label contentDisplay="CENTER" text="How many pictures?" textAlignment="CENTER">
+                     <font>
+                        <Font size="36.0" />
+                     </font></Label>
+            <ComboBox fx:id="_numImages" prefHeight="60.0" prefWidth="150.0" style="-fx-font-family: Dk Cool Crayon; -fx-font-size: 15pt;" />
+          </children>
+        </VBox>
+      </children>
+    </VBox>
+    <Button layoutX="50.0" layoutY="578.0" mnemonicParsing="false" onAction="#pressedBackButton" prefHeight="102.0" prefWidth="150.0" text="Back">
+      <font>
+        <Font name="DK Cool Crayon" size="36.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="_createButton" layoutX="509.0" layoutY="578.0" mnemonicParsing="false" onAction="#pressedCreateButton" prefHeight="102.0" prefWidth="182.0" text="Create!">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+  </children>
+</AnchorPane>

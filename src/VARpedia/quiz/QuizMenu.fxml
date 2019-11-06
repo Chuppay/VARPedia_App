@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="VARpedia.quiz.QuizMenuController">
+  <children>
+    <ListView fx:id="_creationsList" layoutX="209.0" layoutY="185.0" prefHeight="341.0" prefWidth="312.0" />
+    <ListView fx:id="_addedList" layoutX="678.0" layoutY="185.0" prefHeight="341.0000999999975" prefWidth="312.0" />
+    <Label layoutX="209.0" layoutY="109.0" text="Your Creations:">
+      <font>
+        <Font size="20.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="678.0" layoutY="109.0" text="Added to Quiz:" />
+    <Button fx:id="_back" layoutX="291.0" layoutY="571.0" mnemonicParsing="false" onAction="#backPressed" text="Back" />
+    <Button fx:id="_startQuiz" layoutX="714.0" layoutY="578.0" mnemonicParsing="false" onAction="#startQuizPressed" text="Start Quiz" />
+    <Button fx:id="_add" layoutX="555.0" layoutY="385.0" mnemonicParsing="false" onAction="#addPressed" text="&gt;" />
+    <Button fx:id="_delete" layoutX="555.0" layoutY="281.0" mnemonicParsing="false" onAction="#deletePressed" text="&lt;" />
+  </children>
+  <stylesheets>
+    <URL value="@../resources/childTheme2.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="VARpedia.quiz.QuizController">
+  <children>
+    <ImageView fx:id="_imageView" fitHeight="403.0" fitWidth="537.3333333333333" layoutX="331.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" />
+    <Label layoutX="560.0" layoutY="18.0" text="Quiz" textAlignment="CENTER">
+      <font>
+        <Font size="30.0" />
+      </font>
+    </Label>
+    <TextField fx:id="_guessField" layoutX="357.0" layoutY="595.0" prefHeight="57.0" prefWidth="284.0" />
+    <Label layoutX="357.0" layoutY="526.0" minHeight="30.0" prefHeight="50.0" prefWidth="281.0" text="Enter Guess:">
+      <font>
+        <Font size="20.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label fx:id="_scoreLabel" font="$x1" layoutX="24.0" layoutY="20.0" text="Score: 0" />
+    <Button fx:id="_guess" layoutX="673.0" layoutY="584.0" mnemonicParsing="false" onAction="#guessPressed" text="Guess!" />
+    <Button fx:id="_back" layoutX="1029.0" layoutY="14.0" mnemonicParsing="false" onAction="#backPressed" text="Back" />
+  </children>
+  <stylesheets>
+    <URL value="@../resources/childTheme2.css" />
+  </stylesheets>
+</AnchorPane>
