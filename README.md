@@ -2,6 +2,8 @@
 
 VARpedia is Visual, Aural, Reading encyclopedia. Psychologists believe that the combination of the three elements will help one learn more effectively. In VARpedia, you can combine music speech and text to create videos. After you've made some videos you can watch them at any time or even quiz your memory! 
 
+![alt text](MainMenu.png)
+
 ## Getting started
 
 Before you start, you must install the dependencies. This can be done by running the following commands:
@@ -24,9 +26,10 @@ VARpedia also requires the user to have at Java and JavaFX installed and can onl
 
 1. Download a zipped up copy of the project. 
 2. Extract all the material into a directory.
-3. Right click and open the directory in the terminal
-4. Enter the command: `chmod +x ./myScript` to gain permission to execute the script
-5. Enter the command: `./myScript` to execute the script to run VARpedia
+3. Enter your own Flickr API keys and shared secret where it has `XXXXXXXXXX` in [FlickrAPIWorker.java](https://github.com/Chuppay/VARPedia_App/blob/master/src/VARpedia/workers/APIFlickrWorker.java)
+4. Right click and open the directory in the terminal
+5. Enter the command: `chmod +x ./myScript` to gain permission to execute the script
+6. Enter the command: `./myScript` to execute the script to run VARpedia
 
 Your VARpedia should be up and running. 
 
